@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   static const seedColor = Colors.orangeAccent;
@@ -7,6 +8,10 @@ class AppTheme {
         colorSchemeSeed: seedColor,
         listTileTheme: const ListTileThemeData(
           iconColor: seedColor,
+        ),
+        textTheme: TextTheme(
+          titleLarge: GoogleFonts.montserratAlternates(),
+          titleMedium: GoogleFonts.firaCode(),
         ),
       );
 }
